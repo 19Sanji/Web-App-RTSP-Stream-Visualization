@@ -1,0 +1,46 @@
+.workroom_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.stream {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  height: 600px;
+  background-color: #2d325a;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.workroom_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  height: 500px;
+  background-color: #2d325a;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.interface {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 120px;
+  margin-top: 25px;
+  background-color: #2d325a;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+.myInterface{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  padding: 10px;
+}
+.myH3{
+  margin-top: 10px;
+}

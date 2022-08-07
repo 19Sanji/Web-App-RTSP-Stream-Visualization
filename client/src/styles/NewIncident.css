@@ -1,0 +1,18 @@
+
+.newIncident_form{
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #2D325A;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.newIncident_form h2{
+    text-align: center;
+}
+
+.newIncident_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}

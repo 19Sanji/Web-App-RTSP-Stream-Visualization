@@ -1,0 +1,61 @@
+.admin_page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 80vh;
+  align-self: flex-start;
+}
+
+.my_interface {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:20px 0px;
+}
+
+.admin_page_table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #25294a;
+}
+
+.admin_page_add_ip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2d325a;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+.admin_page_table {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.admin_page_td {
+  text-align: center;
+  padding: 15px;
+  min-width: 225px;
+  max-width: 725px;
+  word-wrap:break-word;
+}
+
+.admin_page_tr:hover {
+  margin: 0px 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.addcolor {
+  background-color: #2d325a;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+button{
+margin: 10px  ;
+}

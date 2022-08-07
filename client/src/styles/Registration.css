@@ -1,0 +1,37 @@
+.reg_div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  min-height: 100vh;
+}
+
+.reg_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 430px;
+  height: 450px;
+  border: none;
+  background-color: #2d325a;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  margin: 10px;
+  width: 300px;
+  height: 35px;
+}
+input:focus {
+  outline: none;
+}
+h3 {
+  margin: 0;
+}
+.mySpan {
+  text-align: center;
+  color: red;
+  min-height: 20px;
+  margin-top: 0;
+}

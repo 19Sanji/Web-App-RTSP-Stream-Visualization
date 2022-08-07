@@ -1,0 +1,85 @@
+.journal_item {
+  width: 100%;
+  height: 0%;
+}
+
+.journal_item.active {
+  transform: scale(1);
+  height: 100%;
+}
+.my_table {
+  /* border: none; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.td1 {
+  min-width: 75px;
+  /* border-left: 1px solid; */
+  padding: 10px;
+}
+.td2 {
+  min-width: 200px;
+  max-width: 200px;
+  /* border-left: 1px solid; */
+  padding: 10px;
+  word-wrap:break-word;
+}
+.td3 {
+  min-width: 330px;
+  max-width: 330px;
+  /* border-left: 1px solid; */
+  padding: 10px;
+  word-wrap:break-word;
+}
+.td4 {
+  min-width: 110px;
+  max-width: 110px;
+  /* border-left: 1px solid; */
+  padding: 10px;
+}
+.td5 {
+  min-width: 120px;
+  max-width: 120px;
+  /* border-left: 1px solid;
+  border-right: 1px solid; */
+  padding: 10px;
+}
+
+.basket_btn {
+  /* background-color: #1e1e1f; */
+  background-color: #25294a;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+}
+
+.edit_btn {
+  /* background-color: #1e1e1f; */
+  background-color: #25294a;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+}
+.edit_btn img {
+  max-height: 26px;
+  max-width: 26px;
+}
+.edit_btn img:hover {
+  animation-duration: 0, 1s;
+  animation-name: img_hover;
+  transform: scale(1.2);
+}
+
+.basket_btn img {
+  max-height: 26px;
+  max-width: 26px;
+}
+.basket_btn img:hover {
+  animation-duration: 0, 1s;
+  animation-name: img_hover;
+  transform: scale(1.2);
+}

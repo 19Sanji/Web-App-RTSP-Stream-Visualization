@@ -1,0 +1,42 @@
+.log_div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  min-height: 72vh;
+}
+
+.log_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 430px;
+  height: 300px;
+  border: none;
+  background-color: #2d325a;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  background-color: #f2f2f2;
+  width: 91%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+h3 {
+  margin: 0;
+}
+
+.mySpan {
+  text-align: center;
+  color: red;
+  min-height: 20px;
+  margin-top: 0;
+}

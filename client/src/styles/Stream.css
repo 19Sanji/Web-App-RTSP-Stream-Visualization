@@ -1,0 +1,28 @@
+.myStream{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 600px;
+  min-width: 800px;
+  flex-direction: column;
+}
+
+.video-img-player {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: auto;
+  height: auto;
+}
+.stream_interface{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;  
+  padding: auto;
+}
+.myIcone{
+  width: 100px;
+}

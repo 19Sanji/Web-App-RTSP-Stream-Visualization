@@ -1,0 +1,65 @@
+.journal_page_content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.my_table {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.basket_btn {
+  background-color: #1e1e1f;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+}
+
+.edit_btn {
+  /* background-color: #1e1e1f; */
+  background-color: #25294a;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+}
+.edit_btn img {
+  max-height: 26px;
+  max-width: 26px;
+}
+.edit_btn img:hover {
+  animation-duration: 0, 1s;
+  animation-name: img_hover;
+  transform: scale(1.2);
+}
+
+.basket_btn img {
+  max-height: 26px;
+  max-width: 26px;
+}
+.basket_btn img:hover {
+  animation-duration: 0, 1s;
+  animation-name: img_hover;
+  transform: scale(1.2);
+}
+
+.myh3 {
+  margin-top: 25px;
+}
+.journal_edit_form_tr {
+  border: none;
+  /* border-left: 1px solid;
+  border-right: 1px solid; */
+  padding: 50px;
+}
+
+.my_tr {
+  background-color: #2d325a;
+  padding: 0;
+  margin: 0;
+}
